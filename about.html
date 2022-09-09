@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Project Work Daffodil</title>
+  <style>
+    body {
+      font-family: system-ui, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .topic {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 100px;
+      background-color: white
+    }
+
+    header {
+      overflow: hidden;
+      background-color: white;
+    }
+
+    header a {
+      float: left;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 28px;
+    }
+
+    footer a {
+      text-decoration: none;
+      color: blue;
+    }
+
+    header a:hover {
+      background-color: yellow;
+      color: black;
+    }
+
+    header .active {
+      background-color: #e8e8e8;
+      color: black;
+    }
+
+    .title {
+      text-align: center;
+      font-size: 80px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2px;
+      color: black;
+      border-radius: 20px;
+      float: left;
+      width: 100%;
+      font-size: 20px;
+      margin-top: 20px;
+    }
+
+    span img {
+      border-radius: 20px;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 60px;
+    }
+
+    .paragraph {
+      display: flex;
+    }
+
+    .text {
+      text-align: left;
+      font-size: 30px;
+      padding-left: 20px;
+    }
+
+    .paragraph img {
+      height: 300px;
+      width: 600px;
+      border-radius: 20px;
+    }
+
+    hr {
+      border: 3px solid #555;
+    }
+
+    table,
+    td,
+    tr,
+    th {
+      border: 2px solid black;
+    }
+
+    a {
+      text-decoration: none;
+      color: blue;
+    }
+
+    h5 {
+      font-size: 60px;
+      color: rgb(187, 6, 6);
+      text-align: center;
+    }
+
+    .aims {
+      font-size: 20px;
+    }
+
+    #more {
+      display: none;
+    }
+
+    button {
+      background-color: white;
+      font-size: 20px;
+      padding-top: 10px;
+      padding-left: 10px;
+    }
+
+    button:hover {
+      background-color: silver;
+      font-size: 20px;
+      padding-top: 10px;
+      padding-left: 10px;
+      opacity: 0.9px;
+    }
+
+    marquee {
+      background-color: grey;
+      border-radius: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <span>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp7sq_tgVNUUoARAxXetvQHDuMvSZPDfrfOA&usqp=CAU"
+      alt="about" height="600" width="100%"></span>
+  <div class="topic">About</div>
+  <header>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="SalientFeatures.html">Salient Features</a>
+    <a href="gallery.html">Gallery</a>
+  </header><br>
+  <h2>About Daffodil</h2>
+  <div class="paragraph">
+    <p>
+    <div class="text">Daffodil Public School and Daffodil Boarding School are the first ISO 9001:2000 and ISO 14001:2004
+      certified English
+      medium coeducational schools conducted by a team of well experienced and trained teachers. ISO 9001:2000 is an
+      International Standard that specifies requirement for a quality management system which meets customers
+      requirement and
+      enhance customers satisfaction. It is based on a systematic, process approach and strives to control and improve
+      organizational results. <a href="https://daffodil.edu.np/" target="_blank">Daffodil's Official Website</a></p>
+    </div>
+    <div class="img"><img src="https://daffodil.edu.np/wp-content/uploads/2019/06/s4.jpg" alt="daffodil">
+    </div><br><br>
+  </div>
+  <hr>
+  <h5>Aims of Daffodil</h5>
+  <div class="aims">
+    <p>
+    <ol>
+      <li>At Daffodil, each child is considered a whole person with the capacity for developing the skills and attitudes
+        necessary
+        to make use of the opportunities that the markets of the future will provide them.</li><br>
+
+      <li>We value everyone associated with our school, irrespective of age, race, gender, family background or ability.
+        We strive to provide an unmatched education to all our pupils.</li><br><span id="dots">...</span>
+
+      <span id="more"></id>
+        <li>In our safe and nurturing environment, we endeavor to motivate, support and inspire every child’s personal,
+          emotional
+          and educational growth.</li><br>
+
+        <li>Through our system, we are confident that they will acquire a wide range of knowledge and skills and a
+          comprehensive
+          understanding of the world.</li><br>
+
+        <li>Ultimately, we aim to cultivate habits of virtue, discipline and self-efficiency in the students and to
+          nurture the
+          students to become the finest humans.</li><br>
+      </span>
+
+    </ol>
+    </p><button onclick="myFunction()" id="button">Read more</button><br>
+    <hr>
+  </div>
+  <div class="none">
+    <h2>Routine Of dining Hall</h2>
+    <center>
+      <table>
+        <tr>
+          <th>Day</th>
+          <th>For Veg(Breakfast)</th>
+          <th>For Non-Veg(Breakfast)</th>
+          <th>For Veg(Lunch)</th>
+          <th>For Non-Veg (lunch)</th>
+        </tr>
+        <tr>
+          <td>Sunday</td>
+          <td>Aloo cury</td>
+          <td>Egg cury</td>
+          <td>Sandwich</td>
+          <td>Sandwich</td>
+        </tr>
+        <tr>
+          <td>Monday</td>
+          <td>Aloo Cury</td>
+          <td>Egg cury</td>
+          <td>Sandwich</td>
+          <td>Sandwich</td>
+        </tr>
+        <tr>
+          <td>Tuesday</td>
+          <td>Panner Cury and Spinach</td>
+          <td>Chicken and Spinach</td>
+          <td>Veg Momo</td>
+          <td>Chicken Momo</td>
+        </tr>
+        <tr>
+          <td>Wednesday</td>
+          <td>Cabbage and pickles</td>
+          <td>Cabbage and pickles</td>
+          <td>Panipuri</td>
+          <td>Panipuri</td>
+        </tr>
+        <tr>
+          <td>Thursday</td>
+          <td>Panner and curry</td>
+          <td>Chicken and cury</td>
+          <td>Veg Burger</td>
+          <td>Chicken Burger</td>
+        </tr>
+        <td>Friday</td>
+        <td>Cauliflower and Spinach</td>
+        <td>Cauliflower and Spinach</td>
+        <td>Puri and Curry</td>
+        <td>Puri and Curry</td>
+      </table>
+  </div>
+  </center><br><br>
+  <hr>
+  <marquee>
+    <footer>
+      <p>Web Developed by: Sulab Karki<br>
+        Visit My official Website.<a target='_blank' href="https://sulabkarki.netlify.app/">Click Here!</a><br>
+        Another Project Work on my School. <a target='_blank' href="https://projectnepal.netlify.app/">Click here to
+          visit</a></p>
+    </footer>
+  </marquee>
+
+  <script>
+    function myFunction() {
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("more");
+      var btnText = document.getElementById("button");
+
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more";
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less";
+        moreText.style.display = "inline";
+      }
+    }
+  </script>
+</body>
+
+</html>

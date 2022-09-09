@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Project Work Daffodil</title>
+  <style>
+    body {
+      font-family: system-ui, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .topic {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 100px;
+      background-color: white;
+    }
+
+    header {
+      overflow: hidden;
+      background-color: white;
+    }
+
+    header a {
+      float: left;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 28px;
+    }
+
+    footer a {
+      text-decoration: none;
+      color: blue;
+    }
+
+    header a:hover {
+      background-color: yellow;
+      color: black;
+    }
+
+    header .active {
+      background-color: #e8e8e8;
+      color: black;
+    }
+
+    .title {
+      text-align: center;
+      font-size: 80px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2px;
+      color: black;
+      border-radius: 20px;
+      float: left;
+      width: 100%;
+      font-size: 20px;
+      margin-top: 20px;
+    }
+
+    .text {
+      text-align: center;
+      font-size: 2em;
+      color: white;
+      position: relative;
+      top: 21em;
+    }
+
+    .link {
+      font-family: 'Times New Roman', Times, serif;
+      text-align: center;
+      color: wheat;
+      position: relative;
+      top: 15em;
+      font-size: 3em;
+    }
+
+    .classes {
+      display: flex;
+    }
+    
+    .primary:hover {
+      background-color: grey;
+      border-radius: 20px;
+      font-size: 1.8em;
+      margin: 5px;
+      height: 500px;
+    }
+
+    .lower:hover {
+      background-color: grey;
+      border-radius: 20px;
+      font-size: 1.8em;
+      margin: 5px;
+      height: 500px;
+    }
+
+    .higher:hover {
+      background-color: grey;
+      border-radius: 20px;
+      font-size: 1.8em;
+      margin: 5px;
+      height: 500px;
+    }
+
+    .classes a {
+      color: blue;
+      text-decoration: none;
+    }
+    .primary {
+      background-color: aqua;
+      border-radius: 20px;
+      font-size: 1.8em;
+      margin: 10px;
+      height: 500px;
+    }
+
+    .lower {
+      background-color: palevioletred;
+      border-radius: 20px;
+      font-size: 1.5em;
+      margin: 10px;
+      font-size: 1.8em;
+    }
+
+    .higher {
+      border-radius: 20px;
+      font-size: 1.5em;
+      margin: 10px;
+      font-size: 1.8em;
+      background-color: red;
+    }
+    img {
+      border-radius: 20px;
+      height: 900px;
+    } 
+    marquee {
+      background-color: grey;
+      border-radius: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <img src="https://daffodil.edu.np/wp-content/uploads/2019/07/Presentation-Hall-min.jpg" alt="about" height="600"
+    width="100%"></span>
+  <div class="topic">Home</div>
+  <header>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="SalientFeatures.html">Salient Features</a>
+    <a href="gallery.html">Gallery</a>
+  </header>
+  <br>
+  <div class="link">
+    <h3 class="dbutton">Welcome to Daffodil School</h3>
+  </div>
+  <div class="text">
+    <i>A place for innovators, learners and leaders of tomorrow.</i>
+  </div>
+  <img
+    src="data:image/jpeg;base64,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"
+    alt="daffodil" width="100%" height="90%">
+  <span class="classes">
+    <div class="primary">
+      <center>Pre Primary and Primary</center><br><br>
+      Welcome to the Pre-Primary and Primary School, where we nurture the development of each child emotionally,
+      academically,
+      physically, socially and artistically every day. During these formative years, it is essential... <a
+        href="https://daffodil.edu.np/classes/pre-primary-and-primary/" target="_blank">Read more</a><br>
+    </div>
+    <div class="lower">
+      <center>Lower Secondary</center><br><br>
+      We nurture the growth of the whole child academically, socially, physically and emotionally during what is
+      typically the
+      most difficult years (ages 10-16) of one's school life. During this stage...<a
+        href="https://daffodil.edu.np/classes/lower-secondary-and-secondary/">Read more</a><br>
+    </div>
+    <div class="higher">
+      <font style="background-color: red;">
+      <center>Higher Secondary</center><br><br>
+      <p>After students complete their SEE examinations they have two streams to choose from at Daffodil. Pursuing +2 in
+        Science
+        is suitable for the students opting to create/join a career in the field of Science and... <a
+          href="https://daffodil.edu.np/classes/higher-secondary-2/">Read more</a></p><br></font>
+    </div>
+  </span>
+  <hr>
+  <marquee>
+  <footer>
+    <p>Web Developed by: Sulab Karki<br>
+      Visit My official Website.<a target='_blank' href="https://sulabkarki.netlify.app/">Click Here!</a><br>
+      Another Project Work on my School. <a target='_blank' href="https://projectnepal.netlify.app/">Click here to
+        visit</a></p>
+  </footer>
+  </marquee>
+</body>
+
+</html>
